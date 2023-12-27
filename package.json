@@ -1,0 +1,19 @@
+{
+  "name": "trpc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "esno client",
+    "server": "esno server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/client": "^10.45.0",
+    "@trpc/server": "^10.45.0",
+    "esno": "^4.0.0",
+    "zod": "^3.22.4"
+  }
+}
