@@ -13,7 +13,6 @@ const trpc = createTRPCProxyClient<AppRouter>({
 });
 
 async function main() {
-	console.log('11')
 	const createdUser = await trpc.userCreate.mutate({
 		name: "一百个Chocolate",
 		email: "chocolate@qq.com",
